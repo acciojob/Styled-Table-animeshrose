@@ -1,1 +1,30 @@
-/* your code */
+
+.table-div{
+    display: grid;
+    text-align: left;
+    
+    margin-top: 50px;
+    border-collapse: separate;
+}
+
+table{
+    border: 0.5px solid white; 
+    border-radius: 10px;
+    border-spacing: 0;
+    overflow: hidden;
+   
+}
+tr,td{
+    padding: 10px;
+}
+.table-header :first-child{
+    padding-left: 10px;
+}
+.table-header{
+    color: white;
+    text-transform: uppercase;
+    background-color: #7CB9E8 !important;
+}
+tr:nth-child(even){
+    background-color: rgb(168, 168, 168);
+}
